@@ -19,7 +19,11 @@
     "dist"
   ],
   "keywords": [
-    "bun"
+    "unified",
+    "rehype",
+    "plugin",
+    "rehype-plugin",
+    "html"
   ],
   "license": "MIT",
   "homepage": "https://codeberg.org/melindachang/rehype-wrap-li#readme",
