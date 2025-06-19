@@ -1,7 +1,7 @@
 {
   "name": "rehype-wrap-li",
   "type": "module",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "main": "./dist/index.cjs",
   "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -22,15 +22,23 @@
     "bun"
   ],
   "license": "MIT",
-  "homepage": "https://github.com/wobsoriano/pkg-name#readme",
+  "homepage": "https://codeberg.org/melindachang/rehype-wrap-li#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wobsoriano/pkg-name.git"
+    "url": "git+https://codeberg.org/melindachang/rehype-wrap-li.git"
   },
-  "bugs": "https://github.com/wobsoriano/pkg-name/issues",
-  "author": "Robert Soriano <sorianorobertc@gmail.com>",
+  "bugs": "https://codeberg.org/melindachang/rehype-wrap-li/issues",
+  "author": "Melinda Chang <melindachang.hy@gmail.com>",
   "devDependencies": {
-    "bun-plugin-dts": "^0.3.0",
-    "@types/bun": "^1.1.10"
+    "@types/bun": "^1.1.10",
+    "@types/hast": "^3.0.4",
+    "bun-plugin-dts": "^0.3.0"
+  },
+  "dependencies": {
+    "all": "^0.0.0",
+    "unist-util-visit": "^5.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
